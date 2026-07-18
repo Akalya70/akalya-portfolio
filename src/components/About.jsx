@@ -39,8 +39,7 @@ export default function About() {
           transition={{ duration: 0.7, delay: 0.1 }}
         >
           <span className="eyebrow">About Me</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">Getting to know me</h2>
-          <p className="text-body leading-relaxed mb-8">
+<h2 className="text-3xl md:text-4xl font-bold mb-6 text-heading">Getting to know me</h2>          <p className="text-body leading-relaxed mb-8">
             Hello! I'm Akalya, a Computer Science Engineering student with a strong interest
             in UI/UX design and frontend development. I enjoy designing clean, user-centered
             interfaces, building responsive web applications, and continuously learning new

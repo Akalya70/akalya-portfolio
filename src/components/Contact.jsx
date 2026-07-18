@@ -20,8 +20,7 @@ export default function Contact() {
           className="text-center mb-14"
         >
           <span className="eyebrow">Let's Connect</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-3 gradient-text">Get In Touch</h2>
-          <p className="text-body max-w-xl mx-auto">
+<h2 className="text-3xl md:text-4xl font-bold mb-3 text-heading">Get In Touch</h2>          <p className="text-body max-w-xl mx-auto">
             Have an opportunity or just want to say hi? I'd love to hear from you.
           </p>
         </motion.div>

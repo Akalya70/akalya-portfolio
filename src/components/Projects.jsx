@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { FiGithub } from 'react-icons/fi'
 import { projects } from '../data/content'
 import cropImg from '../assets/project-crop-recommendation.jpg'
 import eduImg from '../assets/project-education-system.jpg'
@@ -47,7 +48,7 @@ function DeviceFrame({ src, alt, type }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 md:py-32">
+    <section id="projects" className="py-24 md:py-32 bg-secondary/60">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -57,7 +58,7 @@ export default function Projects() {
           className="text-center mb-14"
         >
           <span className="eyebrow">Selected Work</span>
-          <h2 className="text-3xl md:text-4xl font-bold gradient-text">Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-heading">Projects</h2>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -98,12 +99,13 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <a
+                
                   href={project.github}
                   target="_blank"
-                  rel="noreferrer"
-                  className="mt-auto w-full py-2.5 rounded-card-sm btn-gradient text-white text-sm font-semibold text-center hover:brightness-110 transition-all duration-200"
+                  rel="noopener noreferrer"
+                  className="mt-auto w-full py-2.5 rounded-card-sm btn-gradient text-white text-sm font-semibold text-center inline-flex items-center justify-center gap-2 hover:brightness-110 hover:-translate-y-0.5 transition-all duration-200"
                 >
+                  <FiGithub />
                   View Project
                 </a>
               </div>
