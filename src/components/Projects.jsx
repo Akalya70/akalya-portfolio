@@ -20,6 +20,7 @@ function DeviceFrame({ src, alt, type }) {
           <span className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
           <span className="w-2.5 h-2.5 rounded-full bg-green-400" />
         </div>
+
         <div className="overflow-hidden">
           <img
             src={src}
@@ -31,7 +32,6 @@ function DeviceFrame({ src, alt, type }) {
     )
   }
 
-  // laptop mockup
   return (
     <div className="px-3 pt-3 pb-1 rounded-t-2xl bg-slate-800">
       <div className="rounded-lg overflow-hidden border border-slate-700">
@@ -41,6 +41,7 @@ function DeviceFrame({ src, alt, type }) {
           className="w-full h-52 object-cover object-top transition-transform duration-500 hover:scale-105"
         />
       </div>
+
       <div className="h-2 mt-2 mx-8 rounded-b-md bg-slate-700" />
     </div>
   )
@@ -50,6 +51,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 md:py-32 bg-secondary/60">
       <div className="section-container">
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,11 +60,16 @@ export default function Projects() {
           className="text-center mb-14"
         >
           <span className="eyebrow">Selected Work</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-heading">Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-heading">
+            Projects
+          </h2>
         </motion.div>
 
+
         <div className="grid md:grid-cols-3 gap-8">
+
           {projects.map((project, i) => (
+
             <motion.article
               key={project.id}
               initial={{ opacity: 0, y: 28 }}
@@ -72,21 +79,32 @@ export default function Projects() {
               whileHover={{ y: -6 }}
               className="bg-card rounded-card border border-borderc shadow-soft hover:shadow-glow transition-shadow duration-300 overflow-hidden flex flex-col"
             >
-              <DeviceFrame src={images[project.image]} alt={project.title} type={project.mockup} />
+
+              <DeviceFrame
+                src={images[project.image]}
+                alt={project.title}
+                type={project.mockup}
+              />
+
 
               <div className="p-6 flex flex-col flex-1">
+
                 <h3 className="font-heading font-semibold text-lg text-heading mb-2">
                   {project.title}
                 </h3>
+
+
                 <p className="text-sm text-body leading-relaxed mb-4">
                   {project.description}
                 </p>
+
 
                 {project.role && (
                   <p className="text-xs font-medium text-primary mb-3">
                     Role: {project.role}
                   </p>
                 )}
+
 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((t) => (
@@ -99,7 +117,8 @@ export default function Projects() {
                   ))}
                 </div>
 
-                
+
+                <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -108,10 +127,16 @@ export default function Projects() {
                   <FiGithub />
                   View Project
                 </a>
+
+
               </div>
+
             </motion.article>
+
           ))}
+
         </div>
+
       </div>
     </section>
   )

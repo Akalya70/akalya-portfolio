@@ -15,13 +15,18 @@ export default function Resume() {
           <div className="w-16 h-16 shrink-0 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-2xl">
             <FiFileText />
           </div>
+
           <div className="flex-1">
-            <h3 className="font-heading font-semibold text-xl text-heading mb-1.5">My Resume</h3>
+            <h3 className="font-heading font-semibold text-xl text-heading mb-1.5">
+              My Resume
+            </h3>
+
             <p className="text-sm text-body leading-relaxed">
               A quick overview of my education, skills, and experience — ready to download.
             </p>
           </div>
-          
+
+          <a
             href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-card-sm btn-gradient text-white font-semibold text-sm shadow-glow hover:-translate-y-0.5 hover:brightness-110 transition-all duration-200"
@@ -29,6 +34,7 @@ export default function Resume() {
             <FiDownload />
             Download Resume
           </a>
+
         </motion.div>
       </div>
     </section>
