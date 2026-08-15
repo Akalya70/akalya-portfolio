@@ -320,15 +320,10 @@ If you find my projects interesting, consider giving the repository a ⭐.
 
 ⭐ ⭐ ⭐ ⭐ ⭐
 
-</p>
+p>
 
 ---
 
-## 📄 License
-
-This portfolio is created for **personal, educational, and professional purposes**.
-
-© 2026 **Akalya Murugesan**
 
 ---
 
