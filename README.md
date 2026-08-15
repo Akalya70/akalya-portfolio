@@ -310,17 +310,8 @@ I believe that consistent learning and practical project development are the bes
           Developer
 ```
 
----
 
-# ⭐ Support
 
-If you find my projects interesting, consider giving the repository a ⭐.
-
-<p align="center">
-
-⭐ ⭐ ⭐ ⭐ ⭐
-
-p>
 
 ---
 
