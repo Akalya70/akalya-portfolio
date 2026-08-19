@@ -125,6 +125,7 @@ A web-based coffee ordering platform designed to simplify online coffee ordering
 * 🗄️ Database integration
 * 🔐 Secure backend architecture
 
+
 **Technologies**
 
 `Java` `Spring Boot` `MySQL` `HTML` `CSS` `JavaScript`
