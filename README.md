@@ -276,6 +276,7 @@ I am particularly interested in opportunities involving:
 
 # 💫 My Development Philosophy
 
+
 <p align="center">
 
 ```text
