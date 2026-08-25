@@ -1,5 +1,5 @@
 
-# ✨ Akalya Murugesan —- Portfolio
+# ✨ Akalya Murugesan — Portfolio
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=220&section=header&text=Akalya%20Murugesan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
