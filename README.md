@@ -38,6 +38,7 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
+
 I am a **Computer Science and Engineering student** passionate about building practical software solutions and continuously improving my technical skills.
 
 My primary interests include **Java development, backend engineering, databases, full-stack development, and problem solving**.
